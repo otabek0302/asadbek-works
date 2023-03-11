@@ -1,0 +1,148 @@
+/* body */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.img-box {
+    margin-top: 30px;
+    width: 960px;
+    height: 250px;
+    display: flex;
+    gap: 30px;
+}
+.img-box img {
+    width: 470px ;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* flex */
+.f-wrap {
+    flex-wrap: wrap;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+/* justify */
+.j-between {
+    justify-content: space-between;
+}
+.j-around {
+    justify-content: space-around;
+}
+.j-center {
+    justify-content: center;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+.gzp-20 {
+    gap: 20px;
+}
+.btn {
+    background-color: #C4C4C4;
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 120px;
+    height: 36px;
+    margin-top: 10px;
+}
+/* top */
+.top-10 {
+    margin-top: 10px;
+}
+.top-20 {
+    margin-top: 20px;
+}
+.top-30 {
+    margin-top: 30px;
+}
+.top-40 {
+    margin-top: 40px;
+}
+hr {
+    width: 960px;
+    height: 0;
+    color: #C4C4C4;
+}
+/* width */
+.col-1 {
+    width: 100px;
+}
+.col-2 {
+    width: 200px;
+}
+.col-3 {
+    width: 300px;
+}
+.col-4 {
+    width: 400px;
+}
+.col-5 {
+    width: 500px;
+}
+.col-6 {
+    width: 600px;
+}
+/* box */
+.box-item-qur {
+    width: 300px;
+    height: 250px;
+    background-color: #C4C4C4;
+}
+.boxtw {
+    width: 960px;
+    height: 520px;
+}
+.boxtw-item-1 {
+    width: 300px;
+    height: 520px;
+    background-color: #C4C4C4;
+}
+.box-item-3 {
+    width: 640px;
+    height: 520px;
+}
+.box-item-4 {
+    width: 640px;
+    height: 250px;
+    background-color: #C4C4C4;
+}
+.box-items {
+    width: 145px;
+    height: 250px;
+    background-color: #C4C4C4;
+}
+.square-items {
+    width: 960px;
+    height: 250px;
+}
+.square-item {
+    width: 300px;
+    height: 250px;
+    background-color: #C4C4C4;
+    color: black;
+}
+.square-item .para {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.square-item-in {
+    width: 100%;
+    height: 70%;
+    background-color: black;
+}
+
